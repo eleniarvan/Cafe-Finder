@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8">
+  <title>Cafe Finder Θεσσαλονίκης</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+<body>
+  <h1>Cafe Finder Θεσσαλονίκης</h1>
+
+  <div id="container">
+    <div id="sidebar">
+      <h2>Καφέδες</h2>
+      <input type="text" id="search" placeholder="Αναζήτηση για καφε...">
+      <ul id="cafe-list"></ul>
+    </div>
+    <div id="map"></div>
+  </div>
+
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
