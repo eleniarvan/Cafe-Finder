@@ -1,23 +1,30 @@
-# Thessaloniki Cafe Finder 
+Thessaloniki Cafe Finder
+An interactive, real-time web application to discover and explore cafes in Thessaloniki using live geographic data.
 
-A front-end web application built entirely with **HTML5**, **CSS3**, and **Vanilla JavaScript** to help users discover and explore cafes in Thessaloniki.
+Project Overview
+This project demonstrates the integration of third-party APIs and mapping libraries with Vanilla JavaScript to create a dynamic user experience. Unlike static applications, this tool fetches live data directly from the OpenStreetMap database.
 
-##  Project Overview
+Key Technical Features:
+Real-time Data Fetching: Utilizes the Overpass API (OpenStreetMap) to retrieve up-to-date information about cafes in specific coordinates of Thessaloniki.
 
-This project was created to practice core web development concepts by building a practical, interactive application. The app allows users to easily navigate and find information about local cafes in the heart of Thessaloniki without relying on heavy external frameworks.
+Interactive Mapping: Integrated Leaflet.js to handle map rendering, custom markers, and dynamic zoom/view transitions.
 
-**Key learning outcomes:**
-- Advanced DOM Manipulation and Event Handling
-- Responsive web design principles for various screen sizes
-- Structuring clean and maintainable HTML and CSS
-- Writing efficient client-side logic using pure JavaScript
+Asynchronous Logic: Implemented JavaScript Fetch API and Promises to handle data retrieval without blocking the UI.
 
-## Technologies Used
+Dynamic Search & Filtering: Features a live search engine that filters both the sidebar list and the map markers simultaneously.
 
-- **HTML5:** Semantic structure (`index.html`)
-- **CSS3:** Styling, custom layouts, and UI design (`style.css`)
-- **Vanilla JavaScript:** Core functionality and interactivity (`app.js`)
+Responsive GIS UI: A clean, sidebar-based layout designed with CSS Flexbox for seamless navigation.
 
-## How to Run
+Technologies Used
+HTML5: Semantic structure.
 
-Simply clone the repository and open the `index.html` file in any modern web browser to view the application locally. No build tools or servers are required!
+CSS3: Custom layouts and UI design (Flexbox).
+
+Vanilla JavaScript: Core logic, API communication, and DOM manipulation.
+
+Leaflet.js: Open-source JavaScript library for mobile-friendly interactive maps.
+
+Overpass API: Data mining tool for OpenStreetMap.
+
+How to Run
+Simply open index.html in any modern web browser. The application will automatically fetch the latest data from the API and render the map.
