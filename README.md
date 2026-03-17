@@ -1,30 +1,52 @@
-Thessaloniki Cafe Finder
-An interactive, real-time web application to discover and explore cafes in Thessaloniki using live geographic data.
+# Thessaloniki Cafe Finder
 
-Project Overview
-This project demonstrates the integration of third-party APIs and mapping libraries with Vanilla JavaScript to create a dynamic user experience. Unlike static applications, this tool fetches live data directly from the OpenStreetMap database.
+An interactive web application for discovering and exploring cafes in Thessaloniki using geographic data from OpenStreetMap.
 
-Key Technical Features:
-Real-time Data Fetching: Utilizes the Overpass API (OpenStreetMap) to retrieve up-to-date information about cafes in specific coordinates of Thessaloniki.
+## Project Overview
 
-Interactive Mapping: Integrated Leaflet.js to handle map rendering, custom markers, and dynamic zoom/view transitions.
+This project demonstrates the integration of third-party APIs and mapping libraries using Vanilla JavaScript to create a dynamic and interactive user experience.
 
-Asynchronous Logic: Implemented JavaScript Fetch API and Promises to handle data retrieval without blocking the UI.
+The application fetches data from the OpenStreetMap database via the Overpass API and visualizes it on a map interface.
 
-Dynamic Search & Filtering: Features a live search engine that filters both the sidebar list and the map markers simultaneously.
+## Key Technical Features
 
-Responsive GIS UI: A clean, sidebar-based layout designed with CSS Flexbox for seamless navigation.
+* **API Data Fetching:**
+  Retrieves cafe data from OpenStreetMap using the Overpass API based on geographic coordinates of Thessaloniki.
 
-Technologies Used
-HTML5: Semantic structure.
+* **Interactive Mapping:**
+  Uses Leaflet.js to render a map with markers and popups for each cafe location.
 
-CSS3: Custom layouts and UI design (Flexbox).
+* **Asynchronous Logic:**
+  Implements the JavaScript Fetch API and Promises to handle data retrieval and processing.
 
-Vanilla JavaScript: Core logic, API communication, and DOM manipulation.
+* **Dynamic Search & Filtering:**
+  Provides live filtering of cafes by name, updating both the sidebar list and displayed results.
 
-Leaflet.js: Open-source JavaScript library for mobile-friendly interactive maps.
+* **User Interaction:**
+  Enables navigation to selected cafes by clicking on list items, updating the map view and opening popups.
 
-Overpass API: Data mining tool for OpenStreetMap.
+* **Responsive Layout:**
+  Sidebar-based interface built with CSS Flexbox for structured navigation between the list and the map.
 
-How to Run
-Simply open index.html in any modern web browser. The application will automatically fetch the latest data from the API and render the map.
+## Technologies Used
+
+* **HTML5** – Application structure
+* **CSS3 (Flexbox)** – Layout and styling
+* **Vanilla JavaScript** – Core logic and DOM manipulation
+* **Leaflet.js** – Interactive maps
+* **Overpass API** – OpenStreetMap data retrieval
+
+## How to Run
+
+Simply open `index.html` in any modern web browser.
+The application will fetch data from the Overpass API and display cafes on the map.
+
+## Notes
+
+This project focuses on:
+
+* Working with external APIs
+* Handling asynchronous JavaScript
+* Building interactive map-based user interfaces
+
+It was developed as part of my learning process in web development.
